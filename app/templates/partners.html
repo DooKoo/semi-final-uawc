@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script type="text/javascript" src="/static/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/static/main.js"></script>
+    <meta charset="UTF-8">
+    <title>Offices</title>
+</head>
+<body>
+    City: <td><input type="text" name="city" id="city" style="width: 50" /></td>
+    Street: <td><input type="text" name="street" id="street" /></td>
+    <td><input type="button" name="send" id="send" value="Apply" onclick="query2($('#city').val(),$('#street').val())" /></td>
+    <div id="result"></div>
+</body>
+</html>
